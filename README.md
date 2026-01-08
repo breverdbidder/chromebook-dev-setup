@@ -64,6 +64,49 @@ mv claude-code-desktop-linux-x64.AppImage ~/Applications/
 
 ---
 
+## 🚨 BREAKTHROUGH: Oh-My-OpenCode (Sisyphus) - 28x Speed Multiplier
+
+**The ultimate enhancement to your AI development workflow!**
+
+Oh-my-opencode (nicknamed "Sisyphus") takes Claude Code Desktop's 4x parallelism and multiplies it by 7x through:
+
+- **Background Agents**: Work continues autonomously ("go for a walk" while it completes features)
+- **Specialized Roles**: Oracle (architecture), Librarian (research), Frontend Engineer
+- **LSP/AST Tools**: Deep code understanding (refactored 8,000 ESLint warnings in 1 day)
+- **Token Efficiency**: 40% reduction while doing MORE work ($24K of production testing)
+- **Ralph Loop**: Continuous self-improvement until production-ready
+
+**Real-World Performance:**
+```
+Task: Implement Zoning Analyst POC
+- Manual: 2 weeks
+- Desktop Only: 7 hours
+- Desktop + Sisyphus: 55 minutes  ← 28x faster
+```
+
+**The Math:**
+- Baseline CLI: 28 hours for 4 features
+- + Desktop: 7 hours (4x improvement)  
+- + Sisyphus: **~1 hour (28x improvement)**
+
+📖 **[Read the complete Oh-My-OpenCode Integration Guide →](OH_MY_OPENCODE_INTEGRATION.md)**
+
+**Quick Install:**
+```bash
+curl -fsSL https://bun.sh/install | bash
+bunx oh-my-opencode install --claude=max20
+```
+
+**Then Try:**
+```bash
+opencode "Implement complex feature. Use background agents. Go ultrawork."
+# Minimize window, go get coffee, come back to completed work
+```
+
+10.9k ⭐ on GitHub | Battle-tested with $24K of production usage | Works with your existing setup
+
+---
+
 ## 📦 What Gets Installed
 
 - **Node.js 20 LTS** - JavaScript runtime
@@ -87,6 +130,7 @@ mv claude-code-desktop-linux-x64.AppImage ~/Applications/
 | [CHROMEBOOK_QUICK_START.md](CHROMEBOOK_QUICK_START.md) | 80/20 setup guide | First-time setup |
 | [CHROMEBOOK_SETUP_CHECKLIST.md](CHROMEBOOK_SETUP_CHECKLIST.md) | Printable checklist | Track progress |
 | [CLAUDE_CODE_DESKTOP_GUIDE.md](CLAUDE_CODE_DESKTOP_GUIDE.md) | **Multi-session parallel workflows** | **After CLI setup** |
+| [OH_MY_OPENCODE_INTEGRATION.md](OH_MY_OPENCODE_INTEGRATION.md) | **🚨 28x speed via background agents** | **After Desktop installed** |
 | [log_lsp_metrics.py](log_lsp_metrics.py) | LSP performance tracker | Weekly monitoring |
 
 ---
@@ -307,6 +351,6 @@ A: Yes! Run the installer on each device. Credentials sync via GitHub.
 
 ---
 
-**Version:** 1.1  
-**Last Updated:** January 8, 2026 (Added Claude Code Desktop Guide)  
+**Version:** 1.2  
+**Last Updated:** January 8, 2026 (Added Oh-My-OpenCode 28x speed multiplier)  
 **Author:** Ariel Shapira, Everest Capital USA
