@@ -33,6 +33,37 @@ nano ~/workspace/.env
 
 ---
 
+## 🚀 NEW: Claude Code Desktop - Multi-Session Parallel Workflows
+
+**Upgrade your development workflow from sequential to parallel execution!**
+
+Claude Code Desktop (late 2025/early 2026 release) transforms your Chromebook into a parallel AI engineering workstation:
+
+- **4x Development Speed**: Run 4 sessions simultaneously instead of sequentially
+- **Git Worktree Isolation**: Zero merge conflicts across parallel tasks
+- **Persistent Memory**: CLAUDE.md files maintain context across restarts
+- **Plan Mode**: AI reviews changes before execution for safe autonomous work
+- **Browser Control**: Automated testing and QA workflows
+
+**For BidDeed.AI specifically:**
+- Zoning Analyst, ForecastEngine™, SPD Pipeline, and maintenance run in parallel
+- 28 hours of sequential work → 7 hours parallel execution
+- Your 20-minute daily oversight → 5-10 minutes reviewing completed work
+
+📖 **[Read the complete Claude Code Desktop Guide →](CLAUDE_CODE_DESKTOP_GUIDE.md)**
+
+Quick install (after CLI setup):
+```bash
+cd ~/Downloads
+wget https://storage.googleapis.com/osprey-downloads-c02f6a0d-347c-492b-a752-3e0651722e97/nest-stable/claude-code-desktop-linux-x64.AppImage
+chmod +x claude-code-desktop-linux-x64.AppImage
+mkdir -p ~/Applications
+mv claude-code-desktop-linux-x64.AppImage ~/Applications/
+~/Applications/claude-code-desktop-linux-x64.AppImage
+```
+
+---
+
 ## 📦 What Gets Installed
 
 - **Node.js 20 LTS** - JavaScript runtime
@@ -55,6 +86,7 @@ nano ~/workspace/.env
 |----------|---------|-------------|
 | [CHROMEBOOK_QUICK_START.md](CHROMEBOOK_QUICK_START.md) | 80/20 setup guide | First-time setup |
 | [CHROMEBOOK_SETUP_CHECKLIST.md](CHROMEBOOK_SETUP_CHECKLIST.md) | Printable checklist | Track progress |
+| [CLAUDE_CODE_DESKTOP_GUIDE.md](CLAUDE_CODE_DESKTOP_GUIDE.md) | **Multi-session parallel workflows** | **After CLI setup** |
 | [log_lsp_metrics.py](log_lsp_metrics.py) | LSP performance tracker | Weekly monitoring |
 
 ---
@@ -275,6 +307,6 @@ A: Yes! Run the installer on each device. Credentials sync via GitHub.
 
 ---
 
-**Version:** 1.0  
-**Last Updated:** January 7, 2026  
+**Version:** 1.1  
+**Last Updated:** January 8, 2026 (Added Claude Code Desktop Guide)  
 **Author:** Ariel Shapira, Everest Capital USA
