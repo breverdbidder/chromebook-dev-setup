@@ -235,7 +235,7 @@ nano CLAUDE.md
 
 ## Constraints
 - Budget: $100/month API spend max
-- Target: 40-55% FREE tier processing
+- Target: 90% FREE tier processing
 - Security: Layer 8 IP Protection (AES-256)
 - NO Google Drive, NO ZIP files, NO local installs
 
